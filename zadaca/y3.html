@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST" action="z3.php">
+        <label for="ime">Ime</label><br>
+        <input type="text" name="ime"><hr>
+        <label for="prezime">Prezime</label><br>
+        <input type="text" name="prezime"><hr>
+        <label for="adresa_ulica">Ulica</label>
+        <input type="text" name="ulica">
+        <label for="adresa_broj">Broj</label>
+        <input type="number" name="broj" maxlength="3"><hr>
+        <label for="primjedba">Primjedba</label><br>
+        <textarea name="primjedba">
+        </textarea><hr>
+        <label for="zemlja">Zemlja</label>
+        <select name="zemlja">
+            <option value="Italija">Italija</option>
+            <option value="Madarska">Maðarska</option>
+            <option value="Austrija">Austrija</option>
+            <option value="Njemacka">Njemacka</option>
+            <option value="Irska">Irska</option>
+            <option value="Engeleska">Engeleska</option>
+        </select><hr>
+
+        <label for="k_ime">Korisnicko ime</label><br>
+        <input type="text" name="k_ime"><hr>
+
+        <label for="pass_1">Lozinka</label><br>
+        <input type="password" name="pass_1"><br>
+        <label for="pass_2">Ponovi Lozinku</label><br>
+        <input type="password" name="pass_2"><hr>
+
+        <input type="submit" value="Salji">
+    </form>
+</body>
+</html>
